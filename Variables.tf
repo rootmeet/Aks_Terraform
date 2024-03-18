@@ -15,7 +15,7 @@ variable "tenant_id" {
 }
 
 variable "resource_group_name" {
-  default = "heydevops-rg"
+  default = "rootmeet-rg"
 }
 
 variable "agent_count" {
@@ -35,7 +35,7 @@ variable "location" {
 }
 
 variable "log_analytics_workspace_name" {
-  default = "heydevopsLogAnalyticsWorkspaceName"
+  default = "rootmeetLogAnalyticsWorkspaceName"
 }
 
 variable "log_analytics_workspace_sku" {
